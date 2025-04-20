@@ -104,6 +104,13 @@ nav a:hover {
   max-width: 600px;
   color: #000;
 }
+.image-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto; 
+  object-fit: cover;
+  border-radius: 10px; 
+}
 
 form {
   display: flex;
