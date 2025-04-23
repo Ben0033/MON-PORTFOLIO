@@ -315,6 +315,7 @@ footer {
 
   .section-title {
     font-size: 1.2em;
+    margin-top: -75px;
   }
 
   .card {
