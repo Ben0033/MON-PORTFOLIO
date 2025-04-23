@@ -355,6 +355,10 @@ footer {
     margin: 0 auto;
   }
 
+  .card p {
+    font-size: 1.2em;
+  }
+
   .card-container {
     max-width: 95%;
     padding: 5px;
