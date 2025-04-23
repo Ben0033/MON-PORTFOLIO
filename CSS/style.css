@@ -280,6 +280,11 @@ footer {
     margin: 0 5px;
     font-size: 0.9em;
   }
+
+  nav a:hover {
+    font-size: 1em;
+  }
+
   section {
     padding: 40px 10px;
     margin-bottom: -50px;
@@ -287,7 +292,7 @@ footer {
   .section-title {
     font-size: 2em;
   }
-  
+
   .section-title {
     font-size: 1.8em;
   }
@@ -328,6 +333,10 @@ footer {
     margin: 0 5px;
     font-size: 0.8em;
   }
+  nav a:hover {
+    font-size: 1em;
+  }
+
   section{
     padding: 30px 10px;
     margin-bottom: -50px;
