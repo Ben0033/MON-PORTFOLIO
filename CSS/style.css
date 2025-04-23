@@ -312,10 +312,12 @@ footer {
     margin: 0 5px;
     font-size: 0.8em;
   }
-
+  section{
+    padding: 30px 10px;
+    margin-bottom: -50px;
+  }
   .section-title {
     font-size: 1.2em;
-    margin-top: -75px;
   }
 
   .card {
@@ -333,7 +335,7 @@ footer {
     padding: 5px;
   }
   .card-container p {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   form input, form textarea, form button {
