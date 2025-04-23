@@ -29,118 +29,123 @@
     <h2 class="section-title">Mes Réalisations</h2>
     <div class="m6">
         <div class="card">
-          <h3>Affiche tarifaire pour Fares nails</h3>
           <div class="image-container">
             <img class="taille" src="images/projet1.png" alt="Fares nails affiches pour ses tarifs">
           </div>
           <p>Je devais faire un visuel captivant en format social média en mettant en avant les tarifs de Fares nals.</p>
         </div>
         <div class="card">
-          <h3>Logo Esho by fatoul</h3>
           <div class="image-container">
             <img class="taille" src="images/projet2.png" alt="Logo Esho by fatoul">
           </div>
           <p>Un logo pour une petite entreprise nigérienne spécialisé dans la vente de vêtement de femmes musulmanes</p>
         </div>
         <div class="card">
-          <h3>Projet 3</h3>
           <div class="image-container">
             <img class="taille" src="images/projet3.png" alt="Projet 3">
           </div>
-          <p>Description du projet réalisé avec les technologies utilisées.</p>
+          <p>Affiches pour Fares nails pour social média en mettant en avant leurs services.</p>
         </div>
         <div class="card">
-          <h3>Projet 4</h3>
           <div class="image-container">
             <img class="taille" src="images/projet4.png" alt="Projet 4">
           </div>
-          <p>Description d'un autre projet mettant en valeur mes compétences.</p>
+          <p>Affiche format A4 paysage pour une soirée retrouivaille entre amis au bar DNM.</p>
         </div>
         <div class="card">
-          <h3>Projet 5</h3>
           <div class="image-container">
             <img class="taille" src="images/projet5.png" alt="Projet 5">
           </div>
-          <p>Description du projet réalisé avec les technologies utilisées.</p>
+          <p>Affiches de remerciment à l'endroit des invités à la cérémonie d'ordination du fère Evrad.</p>
         </div>
         <div class="card">
-          <h3>Projet 6</h3>
           <div class="image-container">
             <img class="taille" src="images/projet6.png" alt="Projet 6">
           </div>
-          <p>Description d'un autre projet mettant en valeur mes compétences.</p>
+          <p>Affiches vinyle pour une vente de kit de formations, d'e-books et de films et series.</p>
         </div>
           </div>
           <div class="m6">
         <div class="card">
-          <h3>Projet 7</h3>
           <div class="image-container">
             <img class="taille" src="images/projet7.png" alt="Projet 7">
           </div>
-          <p>Description du projet réalisé avec les technologies utilisées.</p>
+          <p>Affiches publicitaire pour la vente de perruqe sous commande.</p>
         </div>
         <div class="card">
-          <h3>Projet 8</h3>
           <div class="image-container">
             <img class="taille" src="images/projet8.png" alt="Projet 8">
           </div>
-          <p>Description d'un autre projet mettant en valeur mes compétences.</p>
+          <p>Carte de voeux de Nöel et de fin d'année 2024 par le frère Evrad.</p>
         </div>
         <div class="card">
-          <h3>Projet 9</h3>
           <div class="image-container">
             <img class="taille" src="images/projet9.png" alt="Projet 9">
           </div>
-          <p>Description du projet réalisé avec les technologies utilisées.</p>
+          <p>Casting mannequins de podium et models photo.</p>
         </div>
         <div class="card">
-          <h3>Projet 10</h3>
           <div class="image-container">
             <img class="taille" src="images/projet10.png" alt="Projet 10">
           </div>
-          <p>Description d'un autre projet mettant en valeur mes compétences.</p>
+          <p>Ecuisson d'un modeste club de foot togolais.</p>
         </div>
         <div class="card">
-          <h3>Projet 11</h3>
           <div class="image-container">
             <img class="taille" src="images/projet11.png" alt="Projet 11">
           </div>
-          <p>Description du projet réalisé avec les technologies utilisées.</p>
+          <p>Redesign du logo de google.</p>
         </div>
         <div class="card">
-          <h3>Projet 12</h3>
           <div class="image-container">
             <img class="taille" src="images/projet12.png" alt="Projet 12">
           </div>
-          <p>Description d'un autre projet mettant en valeur mes compétences.</p>
+          <p>Logo OJU graphic studio, startup naissant d'un collaborateur togolais.</p>
         </div>
     </div>
   </section>
 
   <section id="projets">
     <h2 class="section-title">Projets en cours</h2>
-    <div class="card">
-      <h3>Projet en cours 1</h3>
-      <p>Ce sur quoi je travaille actuellement...</p>
+    <div class="card-container">
+      <img src="images/mt1.jpeg" alt="">
+      <p>Page d'accueuil du projet ...</p>
     </div>
-    <div class="card">
-        <h3>Projet en cours 1</h3>
-        <p>Ce sur quoi je travaille actuellement...</p>
+    <div class="card-container">
+      <img src="images/mt2.jpeg" alt="">
+        <p>Page Shop avec quelques selections des produit de la boutique...</p>
       </div>
-    <div class="card">
-        <h3>Projet en cours 1</h3>
-        <p>Ce sur quoi je travaille actuellement...</p>
+    <div class="card-container">
+      <img src="images/mt3.jpeg" alt="">
+        <p>Ici on est sur une page sur laquuelle on est redirigé apreès avoir appuyé sur voir plus avec l'ensemble des produit.</p>
   </section>
 
   <section id="contact">
     <h2 class="section-title">Contact</h2>
-    <form>
-      <input type="text" placeholder="Nom" required>
-      <input type="email" placeholder="Email" required>
-      <textarea rows="5" placeholder="Votre message" required></textarea>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Nom" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
       <button type="submit">Envoyer</button>
     </form>
+    <p id="statusMessage"></p>
   </section>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      const mailtoLink = `mailto:benjaminfafanyo@gmail.com?subject=Message%20de%20${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0ADe%20:%20${encodeURIComponent(email)}`;
+      
+      window.location.href = mailtoLink;
+
+      document.getElementById('statusMessage').textContent = "Redirection vers votre client mail...";
+    });
+  </script>
 
   <footer>
     &copy; 2025 Benjamin FAFANYO. Tous droits réservés.

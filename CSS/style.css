@@ -104,8 +104,36 @@ nav a:hover {
   max-width: 600px;
   color: #000;
 }
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 2px solid #e60000;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 90%;
+  color: #000;
+  text-align: center;
+}
+
+.card-container p {
+  font-size: 1.5em;
+  color: #e60000;
+  margin-top: 10px;
+}
+
 .image-container img {
   width: 100%;
+  margin: 30px ;
   max-width: 400px;
   height: auto; 
   object-fit: cover;
