@@ -327,6 +327,14 @@ footer {
     margin: 0 auto;
   }
 
+  .card-container {
+    max-width: 95%;
+    padding: 5px;
+  }
+  .card-container p {
+    font-size: 1.2em;
+  }
+
   form input, form textarea, form button {
     width: 100%;
     font-size: 0.8em;
