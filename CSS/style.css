@@ -360,8 +360,16 @@ footer {
   }
 
   .card-container {
-    max-width: 95%;
+    max-width: 100%;
     padding: 5px;
+  }
+  
+  #presentation {
+    max-width: 100%;
+    padding: 5px;
+  }
+  #presentation h2 {
+    font-size: 1.6em;
   }
   .card-container p {
     font-size: 1em;
