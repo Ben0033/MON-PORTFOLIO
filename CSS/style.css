@@ -372,7 +372,11 @@ footer {
     font-size: 1.6em;
   }
   .card-container p {
-    font-size: 0.4em;
+    font-size: 0.2em;
+  }
+  .image-container img {
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   form input, form textarea, form button {
