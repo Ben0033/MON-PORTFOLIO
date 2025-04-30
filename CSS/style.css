@@ -1,108 +1,164 @@
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
 }
 
 body {
-  background-color: #ffffff;
-  color: #000;
-  scroll-behavior: smooth;
+background-color: #ffffff;
+color: #000;
+scroll-behavior: smooth;
 }
 
 header, section {
-  padding: 60px 20px;
-  text-align: center;
+padding: 60px 20px;
+text-align: center;
 }
 
 header {
-  background: #f5f5f5;
-  color: #000;
+background: #f5f5f5;
+color: #000;
 }
 
 header h1 {
-  font-size: 3em;
-  color: #e60000;
+font-size: 3em;
+color: #fb0000;
 }
 
 nav {
-  position: sticky;
-  top: 0;
-  background-color: #fff;
-  padding: 10px;
-  z-index: 1000;
-  border-bottom: 2px solid #e60000;
+position: sticky;
+top: 0;
+background-color: #fff;
+padding: 10px;
+z-index: 1000;
+border-bottom: 2px solid #fb0000;
 }
 
 nav a {
-  margin: 10px 15px;
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
+margin: 10px 15px;
+color: #000;
+text-decoration: none;
+font-weight: bold;
 }
 
 nav a:hover {
-  color: #e60000;
-  font-size: 1.1em;
-  transition: 0.3s;
-  background-color: #f5f5f5;
-  padding: 5px;
-  border-radius: 10px;
+color: #fb0000;
+font-size: 1.1em;
+transition: 0.3s;
+background-color: #f5f5f5;
+padding: 5px;
+border-radius: 10px;
 }
 
 .section-title {
-  font-size: 2.5em;
-  color: #e60000;
-  margin-bottom: 20px;
+font-size: 2.5em;
+color: #fb0000;
+margin-bottom: 20px;
 }
 
 #presentation {
-  background: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px auto;
-  max-width: 70%;
+background: #f5f5f5;
+padding: 20px;
+border-radius: 10px;
+margin: 20px auto;
+max-width: 70%;
 }
 #presentation h2 {
-  font-size: 2.5em;
-  color: #e60000;
-  margin-bottom: 20px;
+font-size: 2.5em;
+color: #fb0000;
+margin-bottom: 20px;
 }
 #presentation p {
-  font-size: 1.2em;
-  line-height: 1.5;
-  color: #000;
+font-size: 1.2em;
+line-height: 1.5;
+color: #000;
 }
 #presentation img {
-  width: 100%;
-  max-width: 400px;
-  height: auto; 
-  object-fit: cover;
-  border-radius: 10px; 
+width: 100%;
+max-width: 400px;
+height: auto; 
+object-fit: cover;
+border-radius: 10px; 
 }
 
 #realisation {
-  background: #f5f5f5;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px auto;
-  max-width: 800px;
-  align-items: center;
+background: #f5f5f5;
+padding: 20px;
+border-radius: 10px;
+margin: 20px auto;
+max-width: 800px;
+align-items: center;
 }
 
 #realisation h2 {
-  font-size: 2.5em;
-  color: #e60000;
-  margin-bottom: 20px;
+font-size: 2.5em;
+color: #fb0000;
+margin-bottom: 20px;
 }
 #realisation p {
-  font-size: 1.2em;
-  line-height: 1.5;
-  color: #000;
+font-size: 1.2em;
+line-height: 1.5;
+color: #000;
 }
 .m6{
+display: flex;
+margin: 10px;
+width: 100%;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.card {
+background: #fff;
+border: 2px solid #fb0000;
+border-radius: 10px;
+padding: 20px;
+margin: 20px auto;
+max-width: 600px;
+color: #000;
+}
+
+.card:hover {
+transform: scale(1.05);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.card-container {
+display: flex;
+flex-direction: column;
+background: #fff;
+border: 2px solid #fb0000;
+border-radius: 10px;
+padding: 20px;
+margin: 20px auto;
+max-width: 90%;
+color: #000;
+text-align: center;
+}
+
+.card-container p {
+font-size: 1.5em;
+color: #000;
+margin-top: 10px;
+}
+
+.image-container img {
+width: 100%;
+margin: 30px ;
+max-width: 400px;
+height: auto; 
+object-fit: cover;
+border-radius: 10px; 
+}
+
+.services-flex-container {
   display: flex;
   margin: 10px;
   width: 100%;
@@ -114,299 +170,332 @@ nav a:hover {
   justify-content: space-around;
 }
 
-.card {
-  background: #fff;
-  border: 2px solid #e60000;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 600px;
-  color: #000;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s, box-shadow 0.3s;
-
-}
-
-.card-container {
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border: 2px solid #e60000;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 90%;
-  color: #000;
-  text-align: center;
-}
-
-.card-container p {
-  font-size: 1.5em;
-  color: #000;
-  margin-top: 10px;
-}
-
-.image-container img {
+.service-card {
+  background: white;
   width: 100%;
-  margin: 30px ;
   max-width: 400px;
-  height: auto; 
-  object-fit: cover;
-  border-radius: 10px; 
+  min-height: 120px;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #fb0000;
+  font-weight: 600;
+}
+
+.service-card p {
+  font-size: 0.99rem;
+  color: #666;
+  font-weight: 400;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1000px;
-  margin: 20px auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 1000px;
+margin: 20px auto;
 }
 
 form input, form textarea, form button {
-  display: block;
-  width: 90%;
-  margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+display: block;
+width: 90%;
+margin: 10px 0;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
 }
 
 form input, form textarea {
-  background: #f5f5f5;
-  color: #000;
+background: #f5f5f5;
+color: #000;
 }
 
 form button {
-  background: #e60000;
-  width: 50%;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
+background: #fb0000;
+width: 50%;
+color: #fff;
+cursor: pointer;
+font-weight: bold;
 }
 
 form button:hover {
-  background: #231010;
-  font-size: 1.1em;
-  transition: 0.3s;
+background: #231010;
+font-size: 1.1em;
+transition: 0.3s;
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 20px;
-  background-color: #f5f5f5;
-  border-top: 2px solid #e60000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+padding: 20px;
+background-color: #f5f5f5;
+border-top: 2px solid #fb0000;
 }
 
 .footer-container .social-media a {
-  margin: 0 10px;
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
+margin: 0 10px;
+color: #000;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s;
 }
 
 .footer-container .social-media a:hover {
-  color: #e60000;
+color: #fb0000;
 }
 
 .footer-container .contact-info {
-  display: flex;
+display: flex;
 }
 
 .footer-container .contact-info .f1 , .f2{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-right: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-right: 20px;
 
 }
 
 
 .footer-container .contact-info p {
-  margin: 5px 0;
-  color: #000;
-  font-size: 1em;
+margin: 5px 0;
+color: #000;
+font-size: 1em;
 }
 
 .footer-container .contact-info .f1 a {
-  margin: 5px 0;
-  color: #000;
-  font-size: 1em;
-  text-decoration: none;
+margin: 5px 0;
+color: #000;
+font-size: 1em;
+text-decoration: none;
 }
 
 .footer-container .footer-links a {
-  margin: 0 10px;
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
+margin: 0 10px;
+color: #000;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s;
 }
 
 .footer-container .footer-links a:hover {
-  color: #e60000;
+color: #fb0000;
 }
 
 .footer-container .footer-credits p {
-  margin: 10px 0;
-  color: #000;
-  font-size: 0.9em;
-  text-align: center;
+margin: 10px 0;
+color: #000;
+font-size: 0.9em;
+text-align: center;
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background: #f5f5f5;
-  color: #000;
-  border-top: 2px solid #e60000;
+text-align: center;
+padding: 20px;
+background: #f5f5f5;
+color: #000;
+border-top: 2px solid #fb0000;
 }
 
 @media (max-width: 768px) {
-  header h1 {
-    font-size: 2em;
-  }
+header h1 {
+  font-size: 2em;
+}
 
-  nav a {
-    margin: 0 5px;
-    font-size: 0.9em;
-  }
+nav a {
+  margin: 0 5px;
+  font-size: 0.9em;
+}
 
-  nav a:hover {
-    font-size: 1em;
-  }
+nav a:hover {
+  font-size: 1em;
+}
 
-  section {
-    padding: 40px 10px;
-    margin-bottom: -50px;
-  }
-  .section-title {
-    font-size: 2em;
-  }
+section {
+  padding: 40px 10px;
+  margin-bottom: -50px;
+}
+.section-title {
+  font-size: 2em;
+}
 
-  .section-title {
-    font-size: 1.8em;
-  }
+.section-title {
+  font-size: 1.8em;
+}
 
-  .card {
-    max-width: 90%;
-    padding: 10px;
-  }
+.card {
+  max-width: 90%;
+  padding: 10px;
+}
 
-  .card p {
-    font-size: 1.5em;
-  }
+.card p {
+  font-size: 1.5em;
+}
 
-  form input, form textarea, form button {
-    width: 100%;
-    font-size: 1em;
-  }
+form input, form textarea, form button {
+  width: 100%;
+  font-size: 1em;
+}
 
-  form button {
-    width: 70%;
-  }
+form button {
+  width: 70%;
+}
 
-  .footer-container {
-    padding: 10px;
-  }
+.footer-container {
+  padding: 10px;
+}
 
-  .footer-container .social-media a {
-    font-size: 0.9em;
-  }
+.footer-container .social-media a {
+  font-size: 0.9em;
+}
 }
 
 @media (max-width: 480px) {
-  header h1 {
-    font-size: 1.5em;
-  }
+header h1 {
+  font-size: 1.5em;
+}
 
-  nav a {
-    margin: 0 5px;
-    font-size: 0.8em;
-  }
-  nav a:hover {
-    font-size: 1em;
-  }
+nav a {
+  margin: 0 5px;
+  font-size: 0.8em;
+}
+nav a:hover {
+  font-size: 1em;
+}
 
-  section{
-    padding: 30px 10px;
-    margin-bottom: -50px;
-  }
-  .section-title {
-    font-size: 1.2em;
-  }
+section{
+  padding: 30px 10px;
+  margin-bottom: -50px;
+}
+.section-title {
+  font-size: 1.2em;
+}
 
-  .card {
-    max-width: 95%;
-    padding: 5px;
-  }
+.card {
+  max-width: 95%;
+  padding: 5px;
+}
 
-  .card img {
-    max-width: 90%;
-    margin: 0 auto;
-  }
+.card img {
+  max-width: 90%;
+  margin: 0 auto;
+}
 
-  .card p {
-    font-size: 1.2em;
-  }
+.card p {
+  font-size: 1.2em;
+}
 
-  .card-container {
-    max-width: 100%;
-    padding: 5px;
-  }
-  
-  #presentation {
-    max-width: 100%;
-    padding: 5px;
-  }
-  #presentation h2 {
-    font-size: 1.6em;
-  }
-  .card-container p {
-    font-size: 1em;
-  }
-  .image-container img {
-    max-width: 90%;
-    margin: 0 auto;
-  }
+.card-container {
+  max-width: 100%;
+  padding: 5px;
+}
 
-  form input, form textarea, form button {
-    width: 100%;
-    font-size: 0.8em;
-  }
+#presentation {
+  max-width: 100%;
+  padding: 5px;
+}
 
-  form button {
-    width: 60%;
-  }
+#presentation h2 {
+  font-size: 1.2em;
+  color: #fb0000;
+  margin-bottom: 10px;
+}
+#presentation p {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 400;
+  margin-top: 10px;
+  line-height: 1.4;
+  margin-bottom: 20px;
 
-  .contact-info {
+}
+.card-container p {
+  font-size: 1em;
+
+}
+.image-container img {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+  .services-flex-container {
+    display: flex;
+    margin: 10px;
     flex-direction: column;
     align-items: center;
-    margin-top: 5px;
-    margin-right: 0;
-  }
+}
 
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
+.service-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 0.3s ease;
+}
 
-  .footer-links {
-    display: none;
-  }
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
 
-  footer {
-    font-size: 0.8em;
-    margin-right: 5%;
-  }
+.service-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #fb0000;
+    font-weight: 600;
+}
+
+.service-card p {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 400;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  font-size: 0.8em;
+}
+
+form button {
+  width: 60%;
+}
+
+.contact-info {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  margin-right: 0;
+}
+
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer-links {
+  display: none;
+}
+
+footer {
+  font-size: 0.8em;
+  margin-right: 5%;
+}
 }
